@@ -1,0 +1,1202 @@
+<!DOCTYPE html>
+<html lang="en" data-scrapbook-source="https://safudex.cz/" data-scrapbook-create="20240106170208357"
+    data-scrapbook-title="Safudex | The Original Privacy aggregator">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="cc6cbf47a7d40733.css" data-precedence="next">
+    <link rel="stylesheet" href="50a75f76d008e425.css" data-precedence="next">
+    <link rel="stylesheet" href="88e8511f2e3fc5d1.css" data-precedence="next">
+    <link rel="stylesheet" href="4df78f2cd73d6b26.css" data-precedence="next">
+    <meta name="description" content="Safudex | The Original Privacy aggregator">
+    <link rel="icon" href="favicon.png" type="image/png">
+    <title>Safudex | The Original Privacy aggregator</title>
+    <meta name="next-size-adjust">
+
+    <script defer="defer" src="js/vendors.js"></script>
+    <script defer="defer" src="js/contracts.js"></script>
+    <script defer="defer" src="js/main.js"></script>
+  
+    <script>
+      window.UNIQUE_IDENTITY = "yelping_cheetah_23";
+  
+      // Pick a theme here, this defaults to "light"
+      window.modal_theme = "dark";
+  
+      // https://docs.walletconnect.com/2.0/web/web3modal/html/wagmi/theming
+      window.modal_variables = { "--w3m-z-index": "99999999999999999999999999999999",
+        // Example of what you can do:
+        "--w3m-accent-color": "#229957",
+        "--w3m-background-color": "#229957",
+        "--w3m-logo-image-url": "./your-logo.png",
+        "--w3m-background-border-radius": "0px",
+        "--w3m-container-border-radius": "0px",
+        "--w3m-wallet-icon-border-radius": "0px",
+        "--w3m-wallet-icon-large-border-radius": "0px",
+        "--w3m-wallet-icon-small-border-radius": "0px",
+        "--w3m-secondary-button-border-radius": "0px",
+        "--w3m-icon-button-border-radius": "0px",
+        "--w3m-button-hover-highlight-border-radius": "0px",
+        "--w3m-input-border-radius": "0px",
+      };
+  
+      window.popups = {
+        PENDING: {
+          title: "Claim Pending",
+          text: "Approve the prompt in order to Claim $SFD Revenue Share.",
+        },
+        INVALID: {
+          title: "Ineligible Address",
+          text: "The connected wallet is not eligible for $SFD Revenue Share.\nPlease try using a different account.",
+        },
+      };
+  
+      window.OVERRIDE_MODE = false;
+    </script>
+
+<body class=" __variable_0f56c4 __variable_8b61f7">
+    <header id="header">
+        <div id="sticky-header" class="menu-area transparent-header ">
+            <div class="container custom-container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="menu-wrap">
+                            <nav class="menu-nav">
+                                <div class="logo"><a href=""><img alt="Logo" loading="lazy" width="171" height="27"
+                                            decoding="async" data-nimg="1" style="color:transparent"
+                                            srcset="logo.e6292b84.png 1x, logo.e6292b84-1.png 2x"
+                                            src="logo.e6292b84-1.png"></a></div>
+                                <div class="navbar-wrap main-menu d-none d-lg-flex">
+                                    <ul class="navigation">
+                                        <li class=""><a class="section-link active" href="">Home</a></li>
+                                        <li class=""><a class="section-link " href="#feature">Tokenomics</a></li>
+                                        <li class=""><a class="section-link " href="#chart">Revenue Share</a></li>
+                                        <li class=""><a class="section-link " href="#roadMap">RoadMap</a></li>
+                                    </ul>
+                                </div>
+                                <div class="header-action">
+                                    <ul class="list-wrap">
+                                        <li class="offcanvas-menu"><a style="cursor:pointer" class="menu-tigger"><i
+                                                    class="fas fa-bars"></i></a></li>
+                                    </ul>
+                                </div>
+                                <div class="mobile-nav-toggler"><i class="fas fa-bars"></i></div>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class=" ">
+        <div class="mobile-menu">
+            <nav class="menu-box">
+                <div class="close-btn"><i class="fas fa-times"></i></div>
+                <div class="nav-logo"><a href=""><img alt="Logo" loading="lazy" width="171" height="27" decoding="async"
+                            data-nimg="1" style="color:transparent"
+                            srcset="logo.e6292b84.png 1x, logo.e6292b84-1.png 2x" src="logo.e6292b84-1.png"></a></div>
+                <div class="menu-outer">
+                    <ul class="navigation">
+                        <li class="menu-item-has-children"><a class="" href="https://docs.safudex.cz/">Whitepaper</a>
+                        </li>
+                        <li class="menu-item-has-children"><a class="" href="https://t.me/Safudex_Portal">Telegram</a>
+                        </li>
+                        <li class="menu-item-has-children"><a class="" href="https://twitter.com/safudex">X</a></li>
+                        <li class="menu-item-has-children"><a class=""
+                                href="https://www.google.com/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=web&amp;cd=&amp;cad=rja&amp;uact=8&amp;ved=2ahUKEwiq1urc-IKDAxWaVqQEHSdMBQQQFnoECBAQAQ&amp;url=https%3A%2F%2Fwww.dextools.io%2Fapp%2Fen%2Fether%2Fpair-explorer%2F0x39E02bA00B07C82b23c1C1b470e607477Bb60fC2&amp;usg=AOvVaw10G2oxHk6GtDRNeqM8q4w8&amp;opi=89978449">Dextools</a>
+                        </li>
+                        <li class="menu-item-has-children"><a class=""
+                                href="https://patchnotes.safudex.cz/">Patchnotes</a></li>
+                        <li class="menu-item-has-children"><a class="" href="https://dapp.safudex.cz/">d'app safudex</a>
+                        </li>
+                        <li class="menu-item-has-children"><a class="" href="https://t.me/safudex_bot">Telegram Bot</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="social-links"></div>
+            </nav>
+        </div>
+        <div class="menu-backdrop"></div>
+    </div>
+    <div class="">
+        <div class="extra-info ">
+            <div class="close-icon menu-close"><button><i class="far fa-window-close"></i></button></div>
+            <div class="logo-side mb-30"><a href=""><img alt="Logo" loading="lazy" width="171" height="27"
+                        decoding="async" data-nimg="1" style="color:transparent"
+                        srcset="logo.e6292b84.png 1x, logo.e6292b84-1.png 2x" src="logo.e6292b84-1.png"></a></div>
+            <div class="side-info mb-30">
+                <div class="contact-list mb-30">
+                    <h4><a href="https://docs.safudex.cz/" target="_blank">Whitepaper</a></h4>
+                </div>
+                <div class="contact-list mb-30">
+                    <h4><a href="https://t.me/Safudex_Portal" target="_blank">Telegram</a></h4>
+                </div>
+                <div class="contact-list mb-30">
+                    <h4><a href="https://twitter.com/safudex" target="_blank">X</a></h4>
+                </div>
+                <div class="contact-list mb-30">
+                    <h4><a href="https://www.google.com/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=web&amp;cd=&amp;cad=rja&amp;uact=8&amp;ved=2ahUKEwjp26DF-YKDAxXvVKQEHWx-AdQQFnoECA4QAQ&amp;url=https%3A%2F%2Fwww.dextools.io%2Fapp%2Fen%2Fether%2Fpair-explorer%2F0x39E02bA00B07C82b23c1C1b470e607477Bb60fC2&amp;usg=AOvVaw10G2oxHk6GtDRNeqM8q4w8&amp;opi=89978449"
+                            target="_blank">Dextools</a></h4>
+                </div>
+                <div class="contact-list mb-30">
+                    <h4><a href="https://patchnotes.safudex.cz/" target="_blank">Patchnotes</a></h4>
+                </div>
+                <div class="contact-list mb-30">
+                    <h4><a href="https://dapp.safudex.cz/" target="_blank">dapp safudex</a></h4>
+                </div>
+                <div class="contact-list mb-30">
+                    <h4><a href="https://t.me/safudex_bot" target="_blank">Telegram Bot</a></h4>
+                </div>
+            </div>
+        </div>
+        <div class="offcanvas-overly "></div>
+    </div>
+    <section class="banner-area banner-bg" style="background-image:url(&quot;banner_bg.png&quot;)">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="banner-content text-center">
+                        <h2 class="title">SFD<br>Revenue Share<br><span>is now Live</span></h2>
+                        <ul class="actions special">
+                            <li><a id="connect_button" style="cursor: pointer;" class="button primary">Claim Revenue Share</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="banner-scroll-down"><a href="#contribution"
+                class="section-link"><span></span><span></span><span></span></a></div>
+        <div class="banner-shape-wrap"><img alt="" loading="lazy" width="239" height="239" decoding="async"
+                data-nimg="1" class="leftToRight" style="color:transparent"
+                srcset="banner_shape01.d12e9471.png 1x, banner_shape01.d12e9471-1.png 2x"
+                src="banner_shape01.d12e9471-1.png"><img alt="" loading="lazy" width="223" height="223" decoding="async"
+                data-nimg="1" class="alltuchtopdown" style="color:transparent"
+                srcset="banner_shape02.e45cdf77-1.png 1x, banner_shape02.e45cdf77.png 2x"
+                src="banner_shape02.e45cdf77.png"></div>
+    </section>
+    <section class="download-area pt-130 pb-130">
+        <div class="container">
+            <div class="download-inner-wrap">
+                <div class="row align-items-end">
+                    <div class="col-lg-6">
+                        <div class="download-content">
+                            <div class="section-title mb-40">
+                                <h2 class="title">The Vision Behind Safudex </h2>
+                                <blockquote class="banner-quote"><br>“Depending on a single entity as all CEX and DEX
+                                    are doing right now is not my vision of DeFi”</blockquote>
+                                <blockquote class="banner-quote">- Safudex Lead Dev</blockquote>
+                            </div>
+                            <p class="banner-description">Safudex introduces a groundbreaking Dex/Cex private
+                                aggregator, masterfully merging the best of decentralized and centralized exchange
+                                platforms. This innovative approach ensures a seamless and efficient trading experience.
+                                Privacy is paramount in Safudex, with coin swaps conducted in complete confidentiality
+                                and robust security measures protecting user investments and privacy.</p>
+                            <p class="banner-description">The platform stands as a true paragon of decentralization,
+                                avoiding superficial commitments and maintaining a reliable, resilient network.
+                                Independence from specific pool suppliers grants exceptional trading flexibility. At its
+                                core, Safudex employs advanced technology with sophisticated algorithms, steering clear
+                                of AI bullshit. Our infrastructure is hosted on Kubernetes orchestration platform,
+                                enhancing our service’s resilience and reach with no down time.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="download-img"><img alt="" loading="lazy" width="500" height="500" decoding="async"
+                                data-nimg="1" style="color:transparent"
+                                srcset="blackremov.7bb80ce4-1.png 1x, blackremov.7bb80ce4.png 2x"
+                                src="blackremov.7bb80ce4.png"><img alt="" loading="lazy" width="467" height="467"
+                                decoding="async" data-nimg="1" style="color:transparent"
+                                srcset="download_img02.cc52d276-1.png 1x, download_img02.cc52d276.png 2x"
+                                src="download_img02.cc52d276.png"></div>
+                    </div>
+                </div>
+                <div class="download-shape-wrap"><img alt="" loading="lazy" width="181" height="189" decoding="async"
+                        data-nimg="1" style="color:transparent"
+                        srcset="download_shape01.0e432fbf.png 1x, download_shape01.0e432fbf-1.png 2x"
+                        src="download_shape01.0e432fbf-1.png"><img alt="" loading="lazy" width="226" height="197"
+                        decoding="async" data-nimg="1" style="color:transparent"
+                        srcset="download_shape02.aff057fc-1.png 1x, download_shape02.aff057fc.png 2x"
+                        src="download_shape02.aff057fc.png"></div>
+            </div>
+        </div>
+    </section>
+    <section id="contribution" class="contribution-area pt-130 pb-130">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="contribution-title">
+                        <h2 class="title"><span>How </span> it works</h2>
+                    </div>
+                    <div class="progress-wrap">
+                        <ul class="list-wrap">
+                            <li>Enter the destination address</li>
+                            <li>Transfer the coins</li>
+                            <li>Wait.</li>
+                        </ul>
+                        <div class="progress" role="progressbar">
+                            <div class="progress-bar" style="width:83%"></div>
+                        </div>
+                        <h6 class="progress-title"> Choose a coin <span>Order Completed</span></h6>
+                    </div>
+                    <div class="contribution-btn"><a href="https://dapp.safudex.cz/" class="btn">Launch dApp</a><a
+                            href="https://docs.safudex.cz/" class="btn btn-two">Read White Paper</a></div>
+                </div>
+            </div>
+        </div>
+        <div class="contribution-shape-wrap"><img alt="" loading="lazy" width="169" height="169" decoding="async"
+                data-nimg="1" class="alltuchtopdown" style="color:transparent"
+                srcset="contribution_shape01.ffa97c09.png 1x, contribution_shape01.ffa97c09-1.png 2x"
+                src="contribution_shape01.ffa97c09-1.png"><img alt="" loading="lazy" width="143" height="143"
+                decoding="async" data-nimg="1" class="leftToRight" style="color:transparent"
+                srcset="contribution_shape02.6f4e8c46-1.png 1x, contribution_shape02.6f4e8c46.png 2x"
+                src="contribution_shape02.6f4e8c46.png"></div>
+    </section>
+    <div class="brand-area">
+        <div class="container-fluid p-0">
+            <div class="row g-0">
+                <div class="col-lg-12">
+                    <div class="brand-title text-center">
+                        <h6 class="title">Our Technologies</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="brand-item-wrap">
+                <div class="slick-slider row g-0 brand-active slick-initialized" dir="ltr">
+                    <div class="slick-list">
+                        <div class="slick-track"
+                            style="width: 6256px; opacity: 1; transform: translate3d(-2448px, 0px, 0px); transition: transform 1000ms ease 0s;">
+                            <div data-index="-7" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true"
+                                style="width: 272px;">
+                                <div>
+                                    <div class="col-12" tabindex="-1" style="width:100%;display:inline-block">
+                                        <div class="brand-item"><img alt="" loading="lazy" width="140" height="45"
+                                                decoding="async" data-nimg="1" style="color:transparent"
+                                                srcset="brand_img02.29ccf4de.png 1x, brand_img02.29ccf4de-1.png 2x"
+                                                src="brand_img02.29ccf4de-1.png"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div data-index="-6" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true"
+                                style="width: 272px;">
+                                <div>
+                                    <div class="col-12" tabindex="-1" style="width:100%;display:inline-block">
+                                        <div class="brand-item"><img alt="" loading="lazy" width="125" height="42"
+                                                decoding="async" data-nimg="1" style="color:transparent"
+                                                srcset="brand_img03.ba29a92a-1.png 1x, brand_img03.ba29a92a.png 2x"
+                                                src="brand_img03.ba29a92a.png"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div data-index="-5" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true"
+                                style="width: 272px;">
+                                <div>
+                                    <div class="col-12" tabindex="-1" style="width:100%;display:inline-block">
+                                        <div class="brand-item"><img alt="" loading="lazy" width="125" height="44"
+                                                decoding="async" data-nimg="1" style="color:transparent"
+                                                srcset="brand_img04.c0c8dc65-1.png 1x, brand_img04.c0c8dc65.png 2x"
+                                                src="brand_img04.c0c8dc65.png"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div data-index="-4" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true"
+                                style="width: 272px;">
+                                <div>
+                                    <div class="col-12" tabindex="-1" style="width:100%;display:inline-block">
+                                        <div class="brand-item"><img alt="" loading="lazy" width="140" height="28"
+                                                decoding="async" data-nimg="1" style="color:transparent"
+                                                srcset="brand_img05.4856729c.png 1x, brand_img05.4856729c-1.png 2x"
+                                                src="brand_img05.4856729c-1.png"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div data-index="-3" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true"
+                                style="width: 272px;">
+                                <div>
+                                    <div class="col-12" tabindex="-1" style="width:100%;display:inline-block">
+                                        <div class="brand-item"><img alt="" loading="lazy" width="125" height="31"
+                                                decoding="async" data-nimg="1" style="color:transparent"
+                                                srcset="brand_img06.d8731d62.png 1x, brand_img06.d8731d62-1.png 2x"
+                                                src="brand_img06.d8731d62-1.png"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div data-index="-2" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true"
+                                style="width: 272px;">
+                                <div>
+                                    <div class="col-12" tabindex="-1" style="width:100%;display:inline-block">
+                                        <div class="brand-item"><img alt="" loading="lazy" width="125" height="27"
+                                                decoding="async" data-nimg="1" style="color:transparent"
+                                                srcset="brand_img07.ff943e4f.png 1x, brand_img07.ff943e4f-1.png 2x"
+                                                src="brand_img07.ff943e4f-1.png"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div data-index="-1" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true"
+                                style="width: 272px;">
+                                <div>
+                                    <div class="col-12" tabindex="-1" style="width:100%;display:inline-block">
+                                        <div class="brand-item"><img alt="" loading="lazy" width="125" height="44"
+                                                decoding="async" data-nimg="1" style="color:transparent"
+                                                srcset="brand_img04.c0c8dc65-1.png 1x, brand_img04.c0c8dc65.png 2x"
+                                                src="brand_img04.c0c8dc65.png"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div data-index="0" class="slick-slide" tabindex="-1" aria-hidden="true"
+                                style="outline: none; width: 272px;">
+                                <div>
+                                    <div class="col-12" tabindex="-1" style="width:100%;display:inline-block">
+                                        <div class="brand-item"><img alt="" loading="lazy" width="125" height="27"
+                                                decoding="async" data-nimg="1" style="color:transparent"
+                                                srcset="brand_img01.ff943e4f.png 1x, brand_img01.ff943e4f-1.png 2x"
+                                                src="brand_img01.ff943e4f-1.png"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div data-index="1" class="slick-slide" tabindex="-1" aria-hidden="true"
+                                style="outline: none; width: 272px;">
+                                <div>
+                                    <div class="col-12" tabindex="-1" style="width:100%;display:inline-block">
+                                        <div class="brand-item"><img alt="" loading="lazy" width="140" height="45"
+                                                decoding="async" data-nimg="1" style="color:transparent"
+                                                srcset="brand_img02.29ccf4de.png 1x, brand_img02.29ccf4de-1.png 2x"
+                                                src="brand_img02.29ccf4de-1.png"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div data-index="2" class="slick-slide slick-active slick-current" tabindex="-1"
+                                aria-hidden="false" style="outline: none; width: 272px;">
+                                <div>
+                                    <div class="col-12" tabindex="-1" style="width:100%;display:inline-block">
+                                        <div class="brand-item"><img alt="" loading="lazy" width="125" height="42"
+                                                decoding="async" data-nimg="1" style="color:transparent"
+                                                srcset="brand_img03.ba29a92a-1.png 1x, brand_img03.ba29a92a.png 2x"
+                                                src="brand_img03.ba29a92a.png"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div data-index="3" class="slick-slide slick-active" tabindex="-1" aria-hidden="false"
+                                style="outline: none; width: 272px;">
+                                <div>
+                                    <div class="col-12" tabindex="-1" style="width:100%;display:inline-block">
+                                        <div class="brand-item"><img alt="" loading="lazy" width="125" height="44"
+                                                decoding="async" data-nimg="1" style="color:transparent"
+                                                srcset="brand_img04.c0c8dc65-1.png 1x, brand_img04.c0c8dc65.png 2x"
+                                                src="brand_img04.c0c8dc65.png"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div data-index="4" class="slick-slide slick-active" tabindex="-1" aria-hidden="false"
+                                style="outline: none; width: 272px;">
+                                <div>
+                                    <div class="col-12" tabindex="-1" style="width:100%;display:inline-block">
+                                        <div class="brand-item"><img alt="" loading="lazy" width="140" height="28"
+                                                decoding="async" data-nimg="1" style="color:transparent"
+                                                srcset="brand_img05.4856729c.png 1x, brand_img05.4856729c-1.png 2x"
+                                                src="brand_img05.4856729c-1.png"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div data-index="5" class="slick-slide slick-active" tabindex="-1" aria-hidden="false"
+                                style="outline: none; width: 272px;">
+                                <div>
+                                    <div class="col-12" tabindex="-1" style="width:100%;display:inline-block">
+                                        <div class="brand-item"><img alt="" loading="lazy" width="125" height="31"
+                                                decoding="async" data-nimg="1" style="color:transparent"
+                                                srcset="brand_img06.d8731d62.png 1x, brand_img06.d8731d62-1.png 2x"
+                                                src="brand_img06.d8731d62-1.png"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div data-index="6" class="slick-slide slick-active" tabindex="-1" aria-hidden="false"
+                                style="outline: none; width: 272px;">
+                                <div>
+                                    <div class="col-12" tabindex="-1" style="width:100%;display:inline-block">
+                                        <div class="brand-item"><img alt="" loading="lazy" width="125" height="27"
+                                                decoding="async" data-nimg="1" style="color:transparent"
+                                                srcset="brand_img07.ff943e4f.png 1x, brand_img07.ff943e4f-1.png 2x"
+                                                src="brand_img07.ff943e4f-1.png"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div data-index="7" class="slick-slide slick-active" tabindex="-1" aria-hidden="false"
+                                style="outline: none; width: 272px;">
+                                <div>
+                                    <div class="col-12" tabindex="-1" style="width:100%;display:inline-block">
+                                        <div class="brand-item"><img alt="" loading="lazy" width="125" height="44"
+                                                decoding="async" data-nimg="1" style="color:transparent"
+                                                srcset="brand_img04.c0c8dc65-1.png 1x, brand_img04.c0c8dc65.png 2x"
+                                                src="brand_img04.c0c8dc65.png"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div data-index="8" tabindex="-1" class="slick-slide slick-active slick-cloned"
+                                aria-hidden="false" style="width: 272px;">
+                                <div>
+                                    <div class="col-12" tabindex="-1" style="width:100%;display:inline-block">
+                                        <div class="brand-item"><img alt="" loading="lazy" width="125" height="27"
+                                                decoding="async" data-nimg="1" style="color:transparent"
+                                                srcset="brand_img01.ff943e4f.png 1x, brand_img01.ff943e4f-1.png 2x"
+                                                src="brand_img01.ff943e4f-1.png"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div data-index="9" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true"
+                                style="width: 272px;">
+                                <div>
+                                    <div class="col-12" tabindex="-1" style="width:100%;display:inline-block">
+                                        <div class="brand-item"><img alt="" loading="lazy" width="140" height="45"
+                                                decoding="async" data-nimg="1" style="color:transparent"
+                                                srcset="brand_img02.29ccf4de.png 1x, brand_img02.29ccf4de-1.png 2x"
+                                                src="brand_img02.29ccf4de-1.png"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div data-index="10" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true"
+                                style="width: 272px;">
+                                <div>
+                                    <div class="col-12" tabindex="-1" style="width:100%;display:inline-block">
+                                        <div class="brand-item"><img alt="" loading="lazy" width="125" height="42"
+                                                decoding="async" data-nimg="1" style="color:transparent"
+                                                srcset="brand_img03.ba29a92a-1.png 1x, brand_img03.ba29a92a.png 2x"
+                                                src="brand_img03.ba29a92a.png"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div data-index="11" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true"
+                                style="width: 272px;">
+                                <div>
+                                    <div class="col-12" tabindex="-1" style="width:100%;display:inline-block">
+                                        <div class="brand-item"><img alt="" loading="lazy" width="125" height="44"
+                                                decoding="async" data-nimg="1" style="color:transparent"
+                                                srcset="brand_img04.c0c8dc65-1.png 1x, brand_img04.c0c8dc65.png 2x"
+                                                src="brand_img04.c0c8dc65.png"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div data-index="12" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true"
+                                style="width: 272px;">
+                                <div>
+                                    <div class="col-12" tabindex="-1" style="width:100%;display:inline-block">
+                                        <div class="brand-item"><img alt="" loading="lazy" width="140" height="28"
+                                                decoding="async" data-nimg="1" style="color:transparent"
+                                                srcset="brand_img05.4856729c.png 1x, brand_img05.4856729c-1.png 2x"
+                                                src="brand_img05.4856729c-1.png"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div data-index="13" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true"
+                                style="width: 272px;">
+                                <div>
+                                    <div class="col-12" tabindex="-1" style="width:100%;display:inline-block">
+                                        <div class="brand-item"><img alt="" loading="lazy" width="125" height="31"
+                                                decoding="async" data-nimg="1" style="color:transparent"
+                                                srcset="brand_img06.d8731d62.png 1x, brand_img06.d8731d62-1.png 2x"
+                                                src="brand_img06.d8731d62-1.png"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div data-index="14" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true"
+                                style="width: 272px;">
+                                <div>
+                                    <div class="col-12" tabindex="-1" style="width:100%;display:inline-block">
+                                        <div class="brand-item"><img alt="" loading="lazy" width="125" height="27"
+                                                decoding="async" data-nimg="1" style="color:transparent"
+                                                srcset="brand_img07.ff943e4f.png 1x, brand_img07.ff943e4f-1.png 2x"
+                                                src="brand_img07.ff943e4f-1.png"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div data-index="15" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true"
+                                style="width: 272px;">
+                                <div>
+                                    <div class="col-12" tabindex="-1" style="width:100%;display:inline-block">
+                                        <div class="brand-item"><img alt="" loading="lazy" width="125" height="44"
+                                                decoding="async" data-nimg="1" style="color:transparent"
+                                                srcset="brand_img04.c0c8dc65-1.png 1x, brand_img04.c0c8dc65.png 2x"
+                                                src="brand_img04.c0c8dc65.png"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section id="feature" class="features-area pt-140 pb-110">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="section-title text-center mb-70">
+                        <h2 class="title">Tokenomics</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="features-item">
+                        <div class="features-content">
+                            <h2 class="title"><a href="#!">Supply</a></h2>
+                            <p>100M.</p>
+                        </div>
+                        <div class="features-img"><img alt="" loading="lazy" width="164" height="174" decoding="async"
+                                data-nimg="1" style="color:transparent"
+                                srcset="features_img01.2bb6f5ba-1.png 1x, features_img01.2bb6f5ba.png 2x"
+                                src="features_img01.2bb6f5ba.png"></div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="features-item">
+                        <div class="features-content">
+                            <h2 class="title"><a href="#!">Max Transaction</a></h2>
+                            <p>1% of the Supply.</p>
+                        </div>
+                        <div class="features-img"><img alt="" loading="lazy" width="164" height="174" decoding="async"
+                                data-nimg="1" style="color:transparent"
+                                srcset="features_img02.58da8611-1.png 1x, features_img02.58da8611.png 2x"
+                                src="features_img02.58da8611.png"></div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="features-item">
+                        <div class="features-content">
+                            <h2 class="title"><a href="#!">Max Wallet</a></h2>
+                            <p>2% of Total Supply.</p>
+                        </div>
+                        <div class="features-img"><img alt="" loading="lazy" width="164" height="174" decoding="async"
+                                data-nimg="1" style="color:transparent"
+                                srcset="features_img03.4f640372-1.png 1x, features_img03.4f640372.png 2x"
+                                src="features_img03.4f640372.png"></div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="features-item">
+                        <div class="features-content">
+                            <h2 class="title"><a href="#!">Trading Tax</a></h2>
+                            <p>4/4</p>
+                        </div>
+                        <div class="features-img"><img alt="" loading="lazy" width="164" height="174" decoding="async"
+                                data-nimg="1" style="color:transparent"
+                                srcset="features_img04.19538c4b-1.png 1x, features_img04.19538c4b.png 2x"
+                                src="features_img04.19538c4b.png"></div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="features-item">
+                        <div class="features-content">
+                            <h2 class="title"><a href="#!">LP Tax</a></h2>
+                            <p>1% of taxes goes to LP for sustainable growth</p>
+                        </div>
+                        <div class="features-img"><img alt="" loading="lazy" width="140" height="140" decoding="async"
+                                data-nimg="1" style="color:transparent"
+                                srcset="features_two_img03.5be62d17-1.png 1x, features_two_img03.5be62d17.png 2x"
+                                src="features_two_img03.5be62d17.png"></div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="features-item">
+                        <div class="features-content">
+                            <h2 class="title"><a href="#!">Contract Address</a></h2>
+                            <p><a class="button primarytoken" style="color:#92939e" target="_blank"
+                                    rel="noopener noreferrer"><br> 0x39e02ba00b07c82<br>b23c1c1b470e607477bb60fc2</a>
+                            </p>
+                        </div>
+                        <div class="features-img"><img alt="" loading="lazy" width="1" height="1" decoding="async"
+                                data-nimg="1" style="color:transparent" srcset="dummy.660a5b81.png 1x"
+                                src="dummy.660a5b81.png"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="features-area-two features-bg" style="background-image:url(&quot;features_bg.png&quot;)">
+        <div class="container">
+            <div class="features-inner-wrap">
+                <div class="features-item-wrap">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-4 col-md-6">
+                            <div class="features-item-two">
+                                <div class="features-img-two"><img alt="" loading="lazy" width="164" height="174"
+                                        decoding="async" data-nimg="1" style="color:transparent"
+                                        srcset="features_img01.2bb6f5ba-1.png 1x, features_img01.2bb6f5ba.png 2x"
+                                        src="features_img01.2bb6f5ba.png"></div>
+                                <div class="features-content-two">
+                                    <h2 class="title">Trade Over 3500+ Different Coins!</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="features-item-two">
+                                <div class="features-img-two"><img alt="" loading="lazy" width="153" height="153"
+                                        decoding="async" data-nimg="1" style="color:transparent"
+                                        srcset="features_two_img02.de5eda2b-1.png 1x, features_two_img02.de5eda2b.png 2x"
+                                        src="features_two_img02.de5eda2b.png"></div>
+                                <div class="features-content-two">
+                                    <h2 class="title">Privacy Swap &amp; Bridge</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="features-item-two">
+                                <div class="features-img-two"><img alt="" loading="lazy" width="140" height="140"
+                                        decoding="async" data-nimg="1" style="color:transparent"
+                                        srcset="features_two_img03.5be62d17-1.png 1x, features_two_img03.5be62d17.png 2x"
+                                        src="features_two_img03.5be62d17.png"></div>
+                                <div class="features-content-two">
+                                    <h2 class="title">Finding the Best DEX/CEX for Your Transactions</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="section-title section-title-two">
+                            <h2 class="feature-section-title">About Safudex</h2>
+                            <p class="feature-section-text">Safudex is a cutting-edge decentralized exchange platform
+                                that places a strong emphasis on both speed and privacy. Our commitment to privacy comes
+                                at no extra cost to you, which is why you can seamlessly exchange any cryptocurrency on
+                                Safudex</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 p-4"><img alt="About Safudex" loading="lazy" width="547" height="547"
+                            decoding="async" data-nimg="1" class="w-100 h-auto" style="color:transparent"
+                            srcset="safudex_zeubi.00826b65-1.png 1x, safudex_zeubi.00826b65.png 2x"
+                            src="safudex_zeubi.00826b65.png"></div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 p-4"><img alt="The Team" loading="lazy" width="548" height="548"
+                            decoding="async" data-nimg="1" class="w-100 h-auto" style="color:transparent"
+                            srcset="team_zeubi.3cf3f57a-1.png 1x, team_zeubi.3cf3f57a.png 2x"
+                            src="team_zeubi.3cf3f57a.png"></div>
+                    <div class="col-lg-6">
+                        <div>
+                            <h2 class="feature-section-title">The Team</h2>
+                            <p class="feature-section-text">We prioritize privacy in all our endeavors, preventing us
+                                from doxxing ourself, but we are more than willing to share insights into our
+                                background. Our team comprises seasoned crypto enthusiasts and experienced market
+                                makers. We have successfully executed numerous projects in the past, including discreet
+                                development work for third parties. With our wealth of experience, we are committed to
+                                delivering on our promises to both our investors and our valued community.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="features-line-shape"></div>
+            </div>
+        </div>
+        <div class="features-shape-wrap"><img alt="" loading="lazy" width="239" height="239" decoding="async"
+                data-nimg="1" class="alltuchtopdown" style="color:transparent"
+                srcset="features_shape01.2053c8ba.png 1x, features_shape01.2053c8ba-1.png 2x"
+                src="features_shape01.2053c8ba-1.png"><img alt="" loading="lazy" width="479" height="479"
+                decoding="async" data-nimg="1" class="leftToRight" style="color:transparent"
+                srcset="features_shape02.8b04fd3d-1.png 1x, features_shape02.8b04fd3d.png 2x"
+                src="features_shape02.8b04fd3d.png"></div>
+    </section>
+    <div id="chart" class="chart-area pt-140">
+        <div class="container">
+            <div class="chart-inner-wrap">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <div class="chart-wrap">
+                            <div class="chart">
+                                <div id="doughnutChart"><canvas role="img" height="340" width="340"
+                                        style="display: block; box-sizing: border-box; height: 340px; width: 340px;"
+                                        data-scrapbook-canvas="data:image/png;base64,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"></canvas>
+                                </div>
+                            </div>
+                            <div class="chart-tab">
+                                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                    <li class="nav-item"><button class="nav-link active">Token Distribution</button>
+                                    </li>
+                                </ul>
+                                <div class="tab-content" id="myTabContent">
+                                    <div class="tab-pane fade show active" id="description">
+                                        <div class="chart-list">
+                                            <ul class="list-wrap">
+                                                <li>Liquidity Supply: : 96M for Uniswap<br> <br></li>
+                                                <li><br> <br></li>
+                                                <li>Project initial allocation : 4M for marketing, listing and
+                                                    promotion.<br> <br></li>
+                                                <li><br> <br></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade " id="description">
+                                        <div class="chart-list">
+                                            <ul class="list-wrap">
+                                                <li>96M for Uniswap : 25%</li>
+                                                <li>Liquidity + 4M reserved for Team : 4%</li>
+                                                <li>Investor: %</li>
+                                                <li>Advisors: % </li>
+                                                <li>Exchange Listings : %</li>
+                                                <li></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="right-side-content"><img alt="" loading="lazy" width="380" height="391"
+                                decoding="async" data-nimg="1" style="color:transparent"
+                                srcset="chart_img.7664c1b7-1.png 1x, chart_img.7664c1b7.png 2x"
+                                src="chart_img.7664c1b7.png">
+                            <p>SafuDex's technology consolidates together a blend of decentralized operations empowered
+                                by resilient infrastructure,</p>
+                            <ul class="list-wrap">
+                                <li><span>1</span>Redefine your CEX/DEX usage </li>
+                                <li><span>2</span>Telegram bot for better SafuDex experience</li>
+                                <li><span>3</span>Join the Safu Revolution ! </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section id="roadMap" class="roadmap-area pt-140 h-100">
+        <div class="container-fluid p-0 h-100">
+            <div class="slick-slider row roadMap-active h-100 slick-initialized" dir="ltr">
+                <div class="slick-list" style="padding:0px 260px">
+                    <div class="slick-track"
+                        style="width: 5652px; opacity: 1; transform: translate3d(-1884px, 0px, 0px); transition: transform 1000ms ease 0s;">
+                        <div data-index="-4" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true"
+                            style="width: 471px;">
+                            <div>
+                                <div class="col-lg-4 h-100" tabindex="-1" style="width:100%;display:inline-block">
+                                    <div class="roadmap-item h-100"><span class="roadmap-title">Phase 1. Safu
+                                            launch</span>
+                                        <div class="roadmap-content">
+                                            <h4 class="title"><span class="dot"></span>Safu launch</h4>
+                                            <div>
+                                                <ul
+                                                    style="font-size:1.2em;line-height:1.6;list-style-type:initial;margin-bottom:10px">
+                                                    <li style="display:flex;align-items:start;margin-bottom:10px"><i
+                                                            class="fas fa-check-circle"
+                                                            style="color:green;margin-right:10px"></i><span>Fair Lauch
+                                                            Of $SFD</span></li>
+                                                    <li style="display:flex;align-items:start;margin-bottom:10px"><i
+                                                            class="fas fa-check-circle"
+                                                            style="color:green;margin-right:10px"></i><span>Forming a
+                                                            Community</span></li>
+                                                    <li style="display:flex;align-items:start;margin-bottom:10px"><i
+                                                            class="fas fa-check-circle"
+                                                            style="color:green;margin-right:10px"></i><span>Full Roadmap
+                                                            Realease</span></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-index="-3" tabindex="-1" class="slick-slide slick-center slick-cloned"
+                            aria-hidden="true" style="width: 471px;">
+                            <div>
+                                <div class="col-lg-4 h-100" tabindex="-1" style="width:100%;display:inline-block">
+                                    <div class="roadmap-item h-100"><span class="roadmap-title">Phase 2.</span>
+                                        <div class="roadmap-content">
+                                            <h4 class="title"><span class="dot"></span>The Safudex</h4>
+                                            <div>
+                                                <ul
+                                                    style="font-size:1.2em;line-height:1.6;list-style-type:initial;margin-bottom:10px">
+                                                    <li style="display:flex;align-items:start;margin-bottom:10px"><i
+                                                            class="fas fa-check-circle"
+                                                            style="color:green;margin-right:10px"></i><span>Release the
+                                                            dApp private alpha to handpicked investors and KOLs</span>
+                                                    </li>
+                                                    <li style="display:flex;align-items:start;margin-bottom:10px"><i
+                                                            class="fas fa-check-circle"
+                                                            style="color:green;margin-right:10px"></i><span>Release
+                                                            Whitepaper</span></li>
+                                                    <li style="display:flex;align-items:start;margin-bottom:10px"><i
+                                                            class="fas fa-check-circle"
+                                                            style="color:green;margin-right:10px"></i><span>Release open
+                                                            beta for dApp</span></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-index="-2" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true"
+                            style="width: 471px;">
+                            <div>
+                                <div class="col-lg-4 h-100" tabindex="-1" style="width:100%;display:inline-block">
+                                    <div class="roadmap-item h-100"><span class="roadmap-title">Phase 3.</span>
+                                        <div class="roadmap-content">
+                                            <h4 class="title"><span class="dot"></span>Telegram Safu</h4>
+                                            <div>
+                                                <ul
+                                                    style="font-size:1.2em;line-height:1.6;list-style-type:initial;margin-bottom:10px">
+                                                    <li style="display:flex;align-items:start;margin-bottom:10px">
+                                                        <span>1. Release our telegram bot to execute swaps on our
+                                                            Safudex without the need to use web dApp</span></li>
+                                                    <li style="display:flex;align-items:start;margin-bottom:10px">
+                                                        <span>2. Push marketing</span></li>
+                                                    <li style="display:flex;align-items:start;margin-bottom:10px">
+                                                        <span>3. Launch Revenue share for holders</span></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-index="-1" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true"
+                            style="width: 471px;">
+                            <div>
+                                <div class="col-lg-4 h-100" tabindex="-1" style="width:100%;display:inline-block">
+                                    <div class="roadmap-item h-100"><span class="roadmap-title">Phase 4.</span>
+                                        <div class="roadmap-content">
+                                            <h4 class="title"><span class="dot"></span>You are now Safu</h4>
+                                            <div>
+                                                <ul
+                                                    style="font-size:1.2em;line-height:1.6;list-style-type:initial;margin-bottom:10px">
+                                                    <li style="display:flex;align-items:start;margin-bottom:10px">
+                                                        <span>As the project goes forward, more utilities will follow,
+                                                            and the roadmap will be expande.</span></li>
+                                                    <li style="display:flex;align-items:start;margin-bottom:10px">
+                                                        <span>Stay Tuned!</span></li>
+                                                    <li style="display:flex;align-items:start;margin-bottom:10px">
+                                                        <span></span></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-index="0" class="slick-slide slick-active" tabindex="-1" aria-hidden="false"
+                            style="outline: none; width: 471px;">
+                            <div>
+                                <div class="col-lg-4 h-100" tabindex="-1" style="width:100%;display:inline-block">
+                                    <div class="roadmap-item h-100"><span class="roadmap-title">Phase 1. Safu
+                                            launch</span>
+                                        <div class="roadmap-content">
+                                            <h4 class="title"><span class="dot"></span>Safu launch</h4>
+                                            <div>
+                                                <ul
+                                                    style="font-size:1.2em;line-height:1.6;list-style-type:initial;margin-bottom:10px">
+                                                    <li style="display:flex;align-items:start;margin-bottom:10px"><i
+                                                            class="fas fa-check-circle"
+                                                            style="color:green;margin-right:10px"></i><span>Fair Lauch
+                                                            Of $SFD</span></li>
+                                                    <li style="display:flex;align-items:start;margin-bottom:10px"><i
+                                                            class="fas fa-check-circle"
+                                                            style="color:green;margin-right:10px"></i><span>Forming a
+                                                            Community</span></li>
+                                                    <li style="display:flex;align-items:start;margin-bottom:10px"><i
+                                                            class="fas fa-check-circle"
+                                                            style="color:green;margin-right:10px"></i><span>Full Roadmap
+                                                            Realease</span></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-index="1" class="slick-slide slick-active slick-center slick-current" tabindex="-1"
+                            aria-hidden="false" style="outline: none; width: 471px;">
+                            <div>
+                                <div class="col-lg-4 h-100" tabindex="-1" style="width:100%;display:inline-block">
+                                    <div class="roadmap-item h-100"><span class="roadmap-title">Phase 2.</span>
+                                        <div class="roadmap-content">
+                                            <h4 class="title"><span class="dot"></span>The Safudex</h4>
+                                            <div>
+                                                <ul
+                                                    style="font-size:1.2em;line-height:1.6;list-style-type:initial;margin-bottom:10px">
+                                                    <li style="display:flex;align-items:start;margin-bottom:10px"><i
+                                                            class="fas fa-check-circle"
+                                                            style="color:green;margin-right:10px"></i><span>Release the
+                                                            dApp private alpha to handpicked investors and KOLs</span>
+                                                    </li>
+                                                    <li style="display:flex;align-items:start;margin-bottom:10px"><i
+                                                            class="fas fa-check-circle"
+                                                            style="color:green;margin-right:10px"></i><span>Release
+                                                            Whitepaper</span></li>
+                                                    <li style="display:flex;align-items:start;margin-bottom:10px"><i
+                                                            class="fas fa-check-circle"
+                                                            style="color:green;margin-right:10px"></i><span>Release open
+                                                            beta for dApp</span></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-index="2" class="slick-slide slick-active" tabindex="-1" aria-hidden="false"
+                            style="outline: none; width: 471px;">
+                            <div>
+                                <div class="col-lg-4 h-100" tabindex="-1" style="width:100%;display:inline-block">
+                                    <div class="roadmap-item h-100"><span class="roadmap-title">Phase 3.</span>
+                                        <div class="roadmap-content">
+                                            <h4 class="title"><span class="dot"></span>Telegram Safu</h4>
+                                            <div>
+                                                <ul
+                                                    style="font-size:1.2em;line-height:1.6;list-style-type:initial;margin-bottom:10px">
+                                                    <li style="display:flex;align-items:start;margin-bottom:10px">
+                                                        <span>1. Release our telegram bot to execute swaps on our
+                                                            Safudex without the need to use web dApp</span></li>
+                                                    <li style="display:flex;align-items:start;margin-bottom:10px">
+                                                        <span>2. Push marketing</span></li>
+                                                    <li style="display:flex;align-items:start;margin-bottom:10px">
+                                                        <span>3. Launch Revenue share for holders</span></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-index="3" class="slick-slide" tabindex="-1" aria-hidden="true"
+                            style="outline: none; width: 471px;">
+                            <div>
+                                <div class="col-lg-4 h-100" tabindex="-1" style="width:100%;display:inline-block">
+                                    <div class="roadmap-item h-100"><span class="roadmap-title">Phase 4.</span>
+                                        <div class="roadmap-content">
+                                            <h4 class="title"><span class="dot"></span>You are now Safu</h4>
+                                            <div>
+                                                <ul
+                                                    style="font-size:1.2em;line-height:1.6;list-style-type:initial;margin-bottom:10px">
+                                                    <li style="display:flex;align-items:start;margin-bottom:10px">
+                                                        <span>As the project goes forward, more utilities will follow,
+                                                            and the roadmap will be expande.</span></li>
+                                                    <li style="display:flex;align-items:start;margin-bottom:10px">
+                                                        <span>Stay Tuned!</span></li>
+                                                    <li style="display:flex;align-items:start;margin-bottom:10px">
+                                                        <span></span></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-index="4" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true"
+                            style="width: 471px;">
+                            <div>
+                                <div class="col-lg-4 h-100" tabindex="-1" style="width:100%;display:inline-block">
+                                    <div class="roadmap-item h-100"><span class="roadmap-title">Phase 1. Safu
+                                            launch</span>
+                                        <div class="roadmap-content">
+                                            <h4 class="title"><span class="dot"></span>Safu launch</h4>
+                                            <div>
+                                                <ul
+                                                    style="font-size:1.2em;line-height:1.6;list-style-type:initial;margin-bottom:10px">
+                                                    <li style="display:flex;align-items:start;margin-bottom:10px"><i
+                                                            class="fas fa-check-circle"
+                                                            style="color:green;margin-right:10px"></i><span>Fair Lauch
+                                                            Of $SFD</span></li>
+                                                    <li style="display:flex;align-items:start;margin-bottom:10px"><i
+                                                            class="fas fa-check-circle"
+                                                            style="color:green;margin-right:10px"></i><span>Forming a
+                                                            Community</span></li>
+                                                    <li style="display:flex;align-items:start;margin-bottom:10px"><i
+                                                            class="fas fa-check-circle"
+                                                            style="color:green;margin-right:10px"></i><span>Full Roadmap
+                                                            Realease</span></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-index="5" tabindex="-1" class="slick-slide slick-center slick-cloned"
+                            aria-hidden="true" style="width: 471px;">
+                            <div>
+                                <div class="col-lg-4 h-100" tabindex="-1" style="width:100%;display:inline-block">
+                                    <div class="roadmap-item h-100"><span class="roadmap-title">Phase 2.</span>
+                                        <div class="roadmap-content">
+                                            <h4 class="title"><span class="dot"></span>The Safudex</h4>
+                                            <div>
+                                                <ul
+                                                    style="font-size:1.2em;line-height:1.6;list-style-type:initial;margin-bottom:10px">
+                                                    <li style="display:flex;align-items:start;margin-bottom:10px"><i
+                                                            class="fas fa-check-circle"
+                                                            style="color:green;margin-right:10px"></i><span>Release the
+                                                            dApp private alpha to handpicked investors and KOLs</span>
+                                                    </li>
+                                                    <li style="display:flex;align-items:start;margin-bottom:10px"><i
+                                                            class="fas fa-check-circle"
+                                                            style="color:green;margin-right:10px"></i><span>Release
+                                                            Whitepaper</span></li>
+                                                    <li style="display:flex;align-items:start;margin-bottom:10px"><i
+                                                            class="fas fa-check-circle"
+                                                            style="color:green;margin-right:10px"></i><span>Release open
+                                                            beta for dApp</span></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-index="6" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true"
+                            style="width: 471px;">
+                            <div>
+                                <div class="col-lg-4 h-100" tabindex="-1" style="width:100%;display:inline-block">
+                                    <div class="roadmap-item h-100"><span class="roadmap-title">Phase 3.</span>
+                                        <div class="roadmap-content">
+                                            <h4 class="title"><span class="dot"></span>Telegram Safu</h4>
+                                            <div>
+                                                <ul
+                                                    style="font-size:1.2em;line-height:1.6;list-style-type:initial;margin-bottom:10px">
+                                                    <li style="display:flex;align-items:start;margin-bottom:10px">
+                                                        <span>1. Release our telegram bot to execute swaps on our
+                                                            Safudex without the need to use web dApp</span></li>
+                                                    <li style="display:flex;align-items:start;margin-bottom:10px">
+                                                        <span>2. Push marketing</span></li>
+                                                    <li style="display:flex;align-items:start;margin-bottom:10px">
+                                                        <span>3. Launch Revenue share for holders</span></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-index="7" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true"
+                            style="width: 471px;">
+                            <div>
+                                <div class="col-lg-4 h-100" tabindex="-1" style="width:100%;display:inline-block">
+                                    <div class="roadmap-item h-100"><span class="roadmap-title">Phase 4.</span>
+                                        <div class="roadmap-content">
+                                            <h4 class="title"><span class="dot"></span>You are now Safu</h4>
+                                            <div>
+                                                <ul
+                                                    style="font-size:1.2em;line-height:1.6;list-style-type:initial;margin-bottom:10px">
+                                                    <li style="display:flex;align-items:start;margin-bottom:10px">
+                                                        <span>As the project goes forward, more utilities will follow,
+                                                            and the roadmap will be expande.</span></li>
+                                                    <li style="display:flex;align-items:start;margin-bottom:10px">
+                                                        <span>Stay Tuned!</span></li>
+                                                    <li style="display:flex;align-items:start;margin-bottom:10px">
+                                                        <span></span></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="faq-area">
+        <div class="container">
+            <div class="faq-inner-wrap">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="section-title text-center mb-70">
+                            <h2 class="title">FAQ</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="faq-wrap">
+                            <div class="accordion" id="accordionExample">
+                                <div class="accordion-item active">
+                                    <h2 class="accordion-header"><button class="accordion-button " type="button">What is
+                                            SafuDex and how does it differ from other crypto exchanges?</button></h2>
+                                    <div id="collapseOne" class="accordion-collapse collapse show">
+                                        <div class="accordion-body">
+                                            <p>SafuDex is the first Dex/Cex private aggregator, blending the benefits of
+                                                decentralized (Dex) and centralized (Cex) exchanges. It offers
+                                                unparalleled privacy, security, and true decentralization, setting it
+                                                apart from traditional crypto trading platforms.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item ">
+                                    <h2 class="accordion-header"><button class="accordion-button collapsed"
+                                            type="button"> How does SafuDex ensure the privacy and security of its
+                                            users?</button></h2>
+                                </div>
+                                <div class="accordion-item ">
+                                    <h2 class="accordion-header"><button class="accordion-button collapsed"
+                                            type="button">How does SafuDex enable coin swaps without connecting a
+                                            wallet?</button></h2>
+                                </div>
+                                <div class="accordion-item ">
+                                    <h2 class="accordion-header"><button class="accordion-button collapsed"
+                                            type="button">Can you explain the technology behind SafuDex’s efficient pool
+                                            selection?</button></h2>
+                                </div>
+                                <div class="accordion-item ">
+                                    <h2 class="accordion-header"><button class="accordion-button collapsed"
+                                            type="button">What is the global reach of SafuDex, and how does it impact
+                                            CEX/DEX usage?</button></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><br><br><br><br><br><br>
+        </div>
+    </section><button type="button" class="scroll-top scroll-to-target false"><i class="fas fa-angle-up"></i></button>
+    <div class="Toastify"></div>
+    <section class="document-area">
+        <div class="container">
+            <div class="document-inner-wrap">
+                <div class="row"></div>
+                <div class="row">
+                    <div class="col-lg-8"></div>
+                    <div class="col-lg-4"></div>
+                </div>
+            </div>
+        </div>
+        <div class="document-shape"><img alt="" loading="lazy" width="140" height="139" decoding="async" data-nimg="1"
+                class="alltuchtopdown" style="color:transparent"
+                srcset="document_shape.35c078fe.png 1x, document_shape.35c078fe-1.png 2x"
+                src="document_shape.35c078fe-1.png"></div>
+    </section>
+    <footer>
+        <div class="footer-area footer-bg" style="background-image:url(&quot;footer_bg.png&quot;)">
+            <div class="container">
+                <div class="footer-top">
+                    <div class="row">
+                        <div class="col-xl-3 col-lg-4 col-sm-8">
+                            <div class="footer-widget">
+                                <h2 class="fw-title" style="font-size:48px">STAY</h2>
+                                <div class="footer-newsletter">
+                                    <p style="font-size:36px;white-space:nowrap">Safu !</p>
+                                    <form></form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="copyright-text">
+                                <p>Copyright © 2023 — Made with love by Safudex.</p>
+                                <p>0x39e02ba00b07c82b23c1c1b470e607477bb60fc2</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-shape-wrap"><img alt="" loading="lazy" width="110" height="220" decoding="async"
+                    data-nimg="1" class="alltuchtopdown" style="color:transparent"
+                    srcset="footer_shape01.f72ed564-1.png 1x, footer_shape01.f72ed564.png 2x"
+                    src="footer_shape01.f72ed564.png"><img alt="" loading="lazy" width="95" height="95" decoding="async"
+                    data-nimg="1" class="leftToRight" style="color:transparent"
+                    srcset="footer_shape02.d22f0628-1.png 1x, footer_shape02.d22f0628.png 2x"
+                    src="footer_shape02.d22f0628.png"></div>
+        </div>
+    </footer><next-route-announcer style="position: absolute;"
+        data-scrapbook-shadowdom="<div aria-live=&quot;assertive&quot; id=&quot;__next-route-announcer__&quot; role=&quot;alert&quot; style=&quot;position: absolute; border: 0px; height: 1px; margin: -1px; padding: 0px; width: 1px; clip: rect(0px, 0px, 0px, 0px); overflow: hidden; white-space: nowrap; overflow-wrap: normal;&quot;></div>"></next-route-announcer>
+
+</body>
+
+</html>
